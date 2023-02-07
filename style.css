@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all ease 1s;
+}
+body {
+  text-align: center;
+}
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 1rem;
+}
+.countries {
+  margin: 1rem 0;
+  text-align: center;
+  width: 100%;
+}
+input {
+  margin: 1rem;
+  text-align: center;
+  border: none;
+  outline: none;
+  padding: 1rem;
+  border-radius: 25px;
+  font-size: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  font-weight: 900;
+
+  color: #766e66;
+}
+.imgClass {
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+
+.card {
+  width: 25%;
+  margin: auto;
+  border-radius: 50px;
+  padding: 5rem;
+  /* background-color:rgb(161, 161, 161); */
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  text-align: left;
+}
+.card p {
+  letter-spacing: 1px;
+}
+.card > p > i {
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
